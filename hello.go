@@ -1,4 +1,4 @@
-package main
+package modtest
 
 import (
 	"fmt"
@@ -8,7 +8,7 @@ import (
 	"golang.org/x/text/message"
 )
 
-func main() {
+func GOMODTEST() {
 	id := uuid.New().String()
 	fmt.Println("UUID: ", id)
 
